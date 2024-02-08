@@ -6,7 +6,7 @@ metadata:
   labels: 
     role: api
     env: demo
-spec: 
+spec:     
   replicas: 2    
   strategy: 
     type: RollingUpdate    
