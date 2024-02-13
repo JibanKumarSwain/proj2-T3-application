@@ -3,7 +3,7 @@ kind: PersistentVolume
 metadata:
   name: mongo-pv
   namespace: three-tier
-spec:
+spec:      
   capacity: 
     storage: 1Gi   
   volumeMode: Filesystem     
