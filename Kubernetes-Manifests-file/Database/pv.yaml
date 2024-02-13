@@ -8,7 +8,7 @@ spec:
     storage: 1Gi
   volumeMode: Filesystem     
   accessModes:        
-    - ReadWriteOnce
+    - ReadWriteOnce   
   hostPath:
     path: /data/db
    
